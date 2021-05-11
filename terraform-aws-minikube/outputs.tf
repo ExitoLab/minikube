@@ -22,4 +22,3 @@ output "kubernetes_config" {
   description = "Object with values prepared for the kubernetes provider config."
   value       = local.kubernetes_config
 }
-
