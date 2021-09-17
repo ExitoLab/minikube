@@ -41,6 +41,6 @@ module "cluster" {
   env_name           = "dev"
   subnet_id          = aws_subnet.subnet_1.id
   vpc_id             = aws_vpc.vpc_1.id
-  instance_type      = "t3a.large"
+  instance_type      = "t3.2xlarge"
   instance_disk_size = "30"
 }
