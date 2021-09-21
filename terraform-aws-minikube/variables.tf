@@ -16,6 +16,7 @@ variable "vpc_id" {
 variable "instance_type" {
   description = "Instance type"
   type        = string
+  default = "t3a.large"
 }
 
 variable "instance_disk_size" {
